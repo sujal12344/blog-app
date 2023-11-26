@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import banner from './../assets/Images/banner.jpg'
 import { IoSearchOutline } from "react-icons/io5";
-import GlobalApi from '../Services/GlobalApi';
+
 function Search({selectedTag}) {
     const tags=[
         {
